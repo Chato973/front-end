@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    frontend:
+        build: .
+        image: chato973/frontend:v1
+        ports: 
+          - 8079
+    
